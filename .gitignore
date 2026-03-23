@@ -1,6 +1,3 @@
-# Lecture examples (kept locally only)
-examples/multi_agent_lecture/
-examples/tool_lecture/
 
 # Environment
 .env

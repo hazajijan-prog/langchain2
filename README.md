@@ -26,8 +26,12 @@ OLLAMA_BEARER_TOKEN=your-bearer-token-here
 ### Running Examples
 
 Make sure the virtual environment is activated and run from the project root:
-
 ```bash
 source .venv/bin/activate
-python -m examples.agent-lecture.simple_agent
+
+# Calculator agent
+python -m examples.tool_lecture.mcp_agent_calculator
+
+# Planner agent (requires planner_mcp server running on port 8003)
+python -m examples.tool_lecture.mcp_agent_planner
 ```
